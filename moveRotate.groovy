@@ -5,8 +5,11 @@ CSG cube = new Cube(size,// X dimention
 			size//  Z dimention
 			).toCSG()
 		
-//cubeIntersectSphere = cubeIntersectSphere.move(x,y,z);// vector notation
+		
 CSG movedCube = cube
+
+//cubeIntersectSphere = cubeIntersectSphere.move(x,y,z);// vector notation
+movedCube = movedCube
 			.movex(40)
 			//.movey(20)
 			//.movez(40)
@@ -15,7 +18,7 @@ CSG movedCube = cube
 movedCube = movedCube
 			//.rotx(15)
 			//.roty(20)
-			.rotz(30)
+			.rotz(15)
 //set colors
 cube.setColor(javafx.scene.paint.Color.CYAN);
 
