@@ -13,8 +13,8 @@ CSG movedCube = cube
 //rotate
 //cubeIntersectSphere = cubeIntersectSphere.rot(rx,ry,rz);// vector notation
 movedCube = movedCube
-			.rotx(15)
-			.roty(20)
+			//.rotx(15)
+			//.roty(20)
 			.rotz(30)
 //set colors
 cube.setColor(javafx.scene.paint.Color.CYAN);
