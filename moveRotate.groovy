@@ -7,9 +7,9 @@ CSG cube = new Cube(size,// X dimention
 		
 //cubeIntersectSphere = cubeIntersectSphere.move(x,y,z);// vector notation
 CSG movedCube = cube
-			//.movex(10)
+			.movex(40)
 			//.movey(20)
-			.movez(40)
+			//.movez(40)
 //rotate
 //cubeIntersectSphere = cubeIntersectSphere.rot(rx,ry,rz);// vector notation
 movedCube = movedCube
